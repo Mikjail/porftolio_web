@@ -1,0 +1,16 @@
+@mixin accent-border {
+  border: 2px solid $accent;
+}
+
+@mixin fullCenterFlex {
+  display: flex;
+  justify-content: center;
+  align-items: flex;
+}
+
+@mixin iconPanel {
+  border-radius: 15px;
+  width: 50px;
+  height: 50px;
+  background-color: white;
+}

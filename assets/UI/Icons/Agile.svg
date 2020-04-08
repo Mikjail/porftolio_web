@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="63px" height="62px" viewBox="0 0 63 62" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 57.1 (83088) - https://sketch.com -->
+    <title>UI / Icons / Agile</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Mika_Web" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Skill---Section-Copy" transform="translate(-618.000000, -2296.000000)">
+            <g id="About-Me---Section" transform="translate(251.000000, 2052.000000)">
+                <g id="Group-5" transform="translate(0.000000, 210.000000)">
+                    <g id="Group-6" transform="translate(47.000000, 26.000000)">
+                        <g id="Group-3" transform="translate(320.000000, 0.000000)">
+                            <g id="UI-/-Icons-/-Agile" transform="translate(0.000000, 8.000000)">
+                                <g id="Group-5">
+                                    <g id="Group-7" fill-rule="nonzero">
+                                        <circle id="Oval" stroke="#1CC0D6" stroke-width="6" cx="33" cy="29" r="26"></circle>
+                                        <polygon id="Rectangle" fill="#FFFFFF" points="33 47 62 47 62 58 33 58"></polygon>
+                                        <path d="M54.5,60.0802624 C54.5,60.1927093 54.5379039,60.3018735 54.6075898,60.3901241 C54.7787217,60.6068462 55.0931395,60.6438045 55.3098616,60.4726726 L61.6522996,55.4644484 C61.6829447,55.4402499 61.7106496,55.4125449 61.7348481,55.3818998 C61.90598,55.1651777 61.8690217,54.8507599 61.6522996,54.679628 L55.3098616,49.6714038 C55.2216111,49.6017178 55.1124469,49.563814 55,49.563814 C54.7238576,49.563814 54.5,49.7876716 54.5,50.063814 L54.5,60.0802624 Z" id="Path-2" stroke="#1CC0D6" fill="#1CC0D6"></path>
+                                        <path d="M2.46980644,24.0940075 L12.4862549,24.0940075 C13.314682,24.0940075 13.9862549,24.7655804 13.9862549,25.5940075 C13.9862549,25.9313481 13.8725433,26.2588407 13.6634855,26.5235925 L8.65526125,32.8660304 C8.14186567,33.5161969 7.19861224,33.6270716 6.54844574,33.1136761 C6.45651049,33.0410806 6.37339556,32.9579657 6.30080008,32.8660304 L1.29257585,26.5235925 C0.779180271,25.873426 0.890055006,24.9301725 1.54022151,24.4167769 C1.80497328,24.2077191 2.13246585,24.0940075 2.46980644,24.0940075 Z" id="Path-2-Copy-2" stroke="#FFFFFF" fill="#1CC0D6"></path>
+                                        <polygon id="Rectangle" fill="#1CC0D6" points="32 52 54 52 54 58 32 58"></polygon>
+                                    </g>
+                                    <rect id="Rectangle" fill-rule="nonzero" x="2" y="0" width="62" height="62"></rect>
+                                </g>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

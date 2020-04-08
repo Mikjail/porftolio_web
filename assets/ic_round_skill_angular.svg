@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="80px" height="80px" viewBox="0 0 80 80" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 57.1 (83088) - https://sketch.com -->
+    <title>ic_round_skill_angular</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="80" height="80" rx="40"></rect>
+    </defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="ic_round_skill_angular">
+            <g>
+                <mask id="mask-2" fill="white">
+                    <use xlink:href="#path-1"></use>
+                </mask>
+                <use id="BG" fill="#34474F" fill-rule="nonzero" xlink:href="#path-1"></use>
+                <g id="angular" mask="url(#mask-2)" fill-rule="nonzero">
+                    <g transform="translate(17.600000, 16.000000)">
+                        <polygon id="Path" stroke="#FFFFFF" stroke-width="1" fill="#DD0031" points="22.5 0 22.5 0 22.5 0 0.215425532 7.94680851 3.6143617 37.412234 22.5 47.8723404 22.5 47.8723404 22.5 47.8723404 41.3856383 37.412234 44.7845745 7.94680851"></polygon>
+                        <polygon id="Path" stroke="none" fill="#C3002F" points="22.5 5.31382979 22.5 5.28989362 22.5 29.537234 22.5 47.0130844 41.3856383 37.412234 44.7845745 7.94680851 22.5 0.79914093"></polygon>
+                        <path d="M22.5,5.28989362 L8.56914894,36.5265957 L8.56914894,36.5265957 L13.7632979,36.5265957 L13.7632979,36.5265957 L16.5638298,29.537234 L28.3882979,29.537234 L31.1888298,36.5265957 L31.1888298,36.5265957 L36.3829787,36.5265957 L36.3829787,36.5265957 L22.5,5.28989362 L22.5,5.28989362 L22.5,5.28989362 L22.5,5.28989362 L22.5,5.28989362 Z M26.5691489,25.2287234 L18.4308511,25.2287234 L22.5,15.4388298 L26.5691489,25.2287234 Z" id="Shape" stroke="none" fill="#FFFFFF"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

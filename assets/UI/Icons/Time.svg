@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="64px" height="63px" viewBox="0 0 64 63" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 57.1 (83088) - https://sketch.com -->
+    <title>UI / Icons / Time</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Mika_Web" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Skill---Section-Copy" transform="translate(-618.000000, -2446.000000)">
+            <g id="About-Me---Section" transform="translate(251.000000, 2052.000000)">
+                <g id="Group-5" transform="translate(0.000000, 236.000000)">
+                    <g id="Group-6-Copy" transform="translate(47.000000, 158.000000)">
+                        <g id="Group-3" transform="translate(320.000000, 0.000000)">
+                            <g id="UI-/-Icons-/-Alarm-">
+                                <g id="Alarm">
+                                    <rect id="Rectangle" fill-rule="nonzero" x="0" y="0" width="64" height="63"></rect>
+                                    <ellipse id="Oval" stroke="#1CC0D6" stroke-width="3" fill-rule="nonzero" cx="32" cy="33.5322581" rx="28.4354839" ry="27.9677419"></ellipse>
+                                    <path d="M6.63805682,12.6772274 L6.68530987,12.6764773 L6.87960831,0.435675871 L6.83235526,0.43642592 L6.63805682,12.6772274 Z" id="Rectangle" stroke="#1CC0D6" stroke-width="3" transform="translate(6.758833, 6.556452) rotate(45.000000) translate(-6.758833, -6.556452) "></path>
+                                    <path d="M57.218702,0.435675871 L57.4130004,12.6764773 L57.4602535,12.6772274 L57.265955,0.43642592 L57.218702,0.435675871 Z" id="Rectangle-Copy-5" stroke="#1CC0D6" stroke-width="3" transform="translate(57.339478, 6.556452) rotate(-45.000000) translate(-57.339478, -6.556452) "></path>
+                                    <path d="M31.5322581,24.8709677 L31.4354839,24.8709677 L31.4354839,37.0645161 C31.4354839,37.0706705 31.4361316,37.0786348 31.4375618,37.0876355 L31.4759725,37.3293635 L31.4355495,37.5707631 C31.4355268,37.5708984 31.4354839,37.5714142 31.4354839,37.5725806 L31.4354839,37.6209677 L38.7580645,37.6209677 L38.7580645,37.5725806 C38.7580645,37.5725806 38.7580645,37.5725806 38.757904,37.5725806 L31.5313802,37.5718072 L31.5314839,36.0718641 L31.5322581,24.8709677 Z" id="Combined-Shape" stroke="#1CC0D6" stroke-width="3"></path>
+                                </g>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

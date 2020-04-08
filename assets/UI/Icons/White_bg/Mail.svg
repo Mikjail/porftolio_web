@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="56px" height="56px" viewBox="0 0 56 56" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 57.1 (83088) - https://sketch.com -->
+    <title>UI / Icons / White_bg / Mail</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="56" height="56" rx="25"></rect>
+    </defs>
+    <g id="Mika_Web" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Skill---Section-Copy" transform="translate(-804.000000, -2846.000000)">
+            <g id="Contact-Me---Section" transform="translate(1.000000, 2544.000000)">
+                <g id="Group" transform="translate(411.000000, 94.000000)">
+                    <g id="icons" transform="translate(168.000000, 208.000000)">
+                        <g id="UI-/-Icons-/-White_bg-/-Mail" transform="translate(224.000000, 0.000000)">
+                            <g>
+                                <g id="ic_halfround_skill_css">
+                                    <mask id="mask-2" fill="white">
+                                        <use xlink:href="#path-1"></use>
+                                    </mask>
+                                    <use id="BG" fill="#FFFFFF" xlink:href="#path-1"></use>
+                                </g>
+                                <g id="Group-5" transform="translate(13.300000, 17.500000)" stroke="#1CC0D6" stroke-width="3">
+                                    <rect id="Rectangle" x="1.5" y="1.5" width="26.4" height="18" rx="3"></rect>
+                                    <polyline id="Path-2" fill-rule="nonzero" points="1.80858238 2.1 14.7 11.9 27.3 2.1"></polyline>
+                                </g>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
