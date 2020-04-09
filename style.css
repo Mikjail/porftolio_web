@@ -6,13 +6,16 @@ body {
 
 .landing__map-background {
   background: url("./assets/UI/Icons/Map.svg") no-repeat center;
-  background-position-x: 40px; }
+  background-position-x: 40%; }
 .landing__first-image {
-  margin-top: 147px; }
+  padding-top: 147px; }
+  .landing__first-image img {
+    top: 2px;
+    position: relative; }
 .landing__hello-world {
   position: absolute;
   text-align: center;
-  top: 55px;
+  top: 200px;
   margin-left: 2px; }
 .landing__who-i-am {
   background-color: #09adc3;
@@ -117,5 +120,30 @@ body {
       margin-right: 56px; }
       .contact-me__icons__item img {
         width: 30px; }
+
+@media only screen and (max-width: 500px) {
+  .landing__who-i-am {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    height: auto; }
+
+  .skills {
+    margin-top: 50px;
+    padding-top: 0; }
+    .skills__title {
+      font-size: 28px; }
+    .skills__skill-set, .skills__skill-set-2 {
+      margin-top: 20px; }
+      .skills__skill-set__item, .skills__skill-set-2__item {
+        margin-top: 50px; }
+    .skills__skill-set-2 {
+      margin-top: 0; }
+
+  .contact-me {
+    margin-top: 50px; }
+    .contact-me__title h1 {
+      font-size: 28px; }
+    .contact-me__icons__item:last-child {
+      margin-right: 0; } }
 
 /*# sourceMappingURL=style.css.map */

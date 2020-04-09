@@ -13,15 +13,19 @@ body {
 .landing {
   &__map-background {
     background: url('./assets/UI/Icons/Map.svg') no-repeat center;
-    background-position-x: 40px;
+    background-position-x: 40%;
   }
   &__first-image {
-    margin-top: 147px;
+    padding-top: 147px;
+    img {
+      top: 2px;
+      position: relative;
+    }
   }
   &__hello-world {
     position: absolute;
     text-align: center;
-    top: 55px;
+    top: 200px;
     margin-left: 2px;
   }
   &__who-i-am {
@@ -155,5 +159,47 @@ body {
       }
     }
     margin-top: 56px;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .landing {
+    &__who-i-am {
+      padding-top: 50px;
+      padding-bottom: 50px;
+      height: auto;
+    }
+  }
+  .skills {
+    margin-top: 50px;
+    padding-top: 0;
+    &__title {
+      font-size: 28px;
+    }
+    &__skill-set,
+    &__skill-set-2 {
+      margin-top: 20px;
+      &__item {
+        margin-top: 50px;
+      }
+    }
+    &__skill-set-2 {
+      margin-top: 0;
+    }
+  }
+  .contact-me {
+    margin-top: 50px;
+    &__title {
+      h1 {
+        font-size: 28px;
+      }
+    }
+    &__icons {
+      &__item {
+        &:last-child {
+          margin-right: 0;
+        }
+      }
+    }
   }
 }
