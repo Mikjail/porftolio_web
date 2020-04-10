@@ -126,7 +126,7 @@ body {
     &__item {
       &__description {
         margin-left: 24px;
-        width: 180px;
+        width: auto;
         p {
           margin-bottom: 0;
         }
@@ -164,6 +164,12 @@ body {
 
 @media only screen and (max-width: 500px) {
   .landing {
+    &__first-image {
+      padding-top: 100px;
+    }
+    &__hello-world {
+      top: 150px;
+    }
     &__who-i-am {
       padding-top: 50px;
       padding-bottom: 50px;
@@ -181,6 +187,9 @@ body {
       margin-top: 20px;
       &__item {
         margin-top: 50px;
+        &__description {
+          width: 180px;
+        }
       }
     }
     &__skill-set-2 {

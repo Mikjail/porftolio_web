@@ -92,7 +92,7 @@ body {
   margin-top: 178px; }
   .skills__skill-set__item__description, .skills__skill-set-2__item__description {
     margin-left: 24px;
-    width: 180px; }
+    width: auto; }
     .skills__skill-set__item__description p, .skills__skill-set-2__item__description p {
       margin-bottom: 0; }
   .skills__skill-set {
@@ -122,6 +122,10 @@ body {
         width: 30px; }
 
 @media only screen and (max-width: 500px) {
+  .landing__first-image {
+    padding-top: 100px; }
+  .landing__hello-world {
+    top: 150px; }
   .landing__who-i-am {
     padding-top: 50px;
     padding-bottom: 50px;
@@ -136,6 +140,8 @@ body {
       margin-top: 20px; }
       .skills__skill-set__item, .skills__skill-set-2__item {
         margin-top: 50px; }
+        .skills__skill-set__item__description, .skills__skill-set-2__item__description {
+          width: 180px; }
     .skills__skill-set-2 {
       margin-top: 0; }
 
