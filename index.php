@@ -1,1 +1,1 @@
-<?php include 'Location: /index.html';  ?>
+<?php include 'index.html';?>
