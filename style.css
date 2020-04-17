@@ -90,6 +90,8 @@ body {
 .skills {
   height: auto;
   margin-top: 178px; }
+  .skills__skill-set__item__content, .skills__skill-set-2__item__content {
+    width: 200px; }
   .skills__skill-set__item__description, .skills__skill-set-2__item__description {
     margin-left: 24px;
     width: auto; }

@@ -124,6 +124,9 @@ body {
   &__skill-set,
   &__skill-set-2 {
     &__item {
+      &__content {
+        width: 200px;
+      }
       &__description {
         margin-left: 24px;
         width: auto;
