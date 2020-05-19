@@ -1,6 +1,6 @@
 # Portfolio Website
 
-## Techonoligies:
+## Languages:
 
 1. HTML
 2. SASS
