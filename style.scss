@@ -157,6 +157,9 @@ body {
       @include fullCenterFlex;
       @include iconPanel;
       margin-right: 56px;
+      &:last-child {
+        margin-right: 0;
+      }
       img {
         width: 30px;
       }

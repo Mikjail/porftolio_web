@@ -42,7 +42,7 @@ body {
     .companies__panel-set__panel {
       display: flex;
       justify-content: center;
-      align-items: flex;
+      align-items: center;
       width: 318px;
       height: 162px;
       box-shadow: 0 6px 22px #ebeaec;
@@ -78,7 +78,7 @@ body {
     .companies__technologies__icon {
       display: flex;
       justify-content: center;
-      align-items: flex;
+      align-items: center;
       box-shadow: 0 6px 22px #ebeaec;
       border-radius: 15px;
       width: 50px;
@@ -114,12 +114,14 @@ body {
     .contact-me__icons__item {
       display: flex;
       justify-content: center;
-      align-items: flex;
+      align-items: center;
       border-radius: 15px;
       width: 50px;
       height: 50px;
       background-color: white;
       margin-right: 56px; }
+      .contact-me__icons__item:last-child {
+        margin-right: 0; }
       .contact-me__icons__item img {
         width: 30px; }
 
