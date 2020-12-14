@@ -3,23 +3,58 @@
 
 @font-face {
   font-family: 'Norteworthy';
-  src: url('./assets/Fonts/Noteworthy-Lt.woff') format('woff');
+  src: url('../assets/Fonts/Noteworthy-Lt.woff') format('woff');
 }
 
 body {
   font-family: 'Norteworthy';
+  display: grid;
+  row-gap: 168px;
+}
+
+h1 {
+  font-size: 2.5rem;
+}
+
+h3 {
+  font-size: 1.75rem;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin-top: 0;
+  margin-bottom: 0.5rem;
+  font-weight: 500;
+  line-height: 1.2;
+}
+
+.companies,
+.technologies,
+.skills {
+  max-width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .landing {
   &__map-background {
-    background: url('./assets/UI/Icons/Map.svg') no-repeat center;
+    background: url('../assets/UI/Icons/Map.svg') no-repeat center;
     background-position-x: 40%;
   }
   &__first-image {
+    display: flex;
+    justify-content: center;
     padding-top: 147px;
-    img {
+    &__img {
       top: 2px;
       position: relative;
+      &--mobile {
+        display: none;
+      }
     }
   }
   &__hello-world {
@@ -29,23 +64,30 @@ body {
     margin-left: 2px;
   }
   &__who-i-am {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     background-color: $primary;
-    height: 618px;
-    padding-top: 133px;
+    padding: 132px 0;
     &__ninja {
       margin-bottom: 24px;
     }
     &__technologies {
+      display: flex;
+      justify-content: center;
       width: 184px;
       img:not(:first-child) {
         margin-left: 8px;
       }
     }
-
     &__description {
+      text-align: center;
+      width: 50%;
       color: white;
       margin-top: 32px;
       line-height: 32px;
+      padding: 0 24px;
+      font-size: 1.25rem;
     }
   }
 }
@@ -53,12 +95,12 @@ body {
 .companies {
   height: auto;
   &__title {
-    line-height: 58px;
-    margin-top: 56px;
+    text-align: center;
   }
 
   &__panel-set {
-    margin-top: 122px;
+    display: flex;
+    justify-content: space-between;
     &__panel {
       $root: &;
       @include fullCenterFlex;
@@ -100,9 +142,9 @@ body {
       }
     }
   }
-
   &__technologies {
     display: flex;
+    justify-content: center;
     margin-top: 24px;
     &__icon {
       @include fullCenterFlex;
@@ -120,15 +162,20 @@ body {
 
 .skills {
   height: auto;
-  margin-top: 178px;
+  width: 100%;
+  &__title {
+    text-align: center;
+  }
   &__skill-set,
   &__skill-set-2 {
+    display: flex;
+    justify-content: space-between;
     &__item {
       &__content {
         width: 200px;
+        text-align: center;
       }
       &__description {
-        margin-left: 24px;
         width: auto;
         p {
           margin-bottom: 0;
@@ -137,7 +184,7 @@ body {
     }
   }
   &__skill-set {
-    margin-top: 178px;
+    margin-top: 56px;
   }
   &__skill-set-2 {
     margin-top: 80px;
@@ -145,14 +192,16 @@ body {
 }
 
 .contact-me {
-  margin-top: 178px;
   padding-top: 96px;
   padding-bottom: 96px;
   background-color: $primary;
   &__title {
+    text-align: center;
     color: white;
   }
   &__icons {
+    display: flex;
+    justify-content: center;
     &__item {
       @include fullCenterFlex;
       @include iconPanel;
@@ -168,10 +217,16 @@ body {
   }
 }
 
-@media only screen and (max-width: 500px) {
+@media only screen and (max-width: 600px) {
   .landing {
     &__first-image {
       padding-top: 100px;
+      &__img {
+        display: none;
+        &--mobile {
+          display: block;
+        }
+      }
     }
     &__hello-world {
       top: 150px;
@@ -180,21 +235,45 @@ body {
       padding-top: 50px;
       padding-bottom: 50px;
       height: auto;
+      &__description {
+        width: 80%;
+        text-align: center;
+      }
+    }
+  }
+  .companies {
+    &__title {
+      width: 80%;
+      margin: 0 auto 56px auto;
+      font-size: 28px;
+    }
+    &__panel-set {
+      &__panel {
+        &--first {
+          margin-top: 0;
+        }
+      }
     }
   }
   .skills {
-    margin-top: 50px;
     padding-top: 0;
     &__title {
       font-size: 28px;
     }
     &__skill-set,
     &__skill-set-2 {
+      flex-direction: column;
+      align-items: center;
       margin-top: 20px;
       &__item {
         margin-top: 50px;
         &__description {
           width: 180px;
+        }
+        &__content {
+          display: flex;
+          flex-direction: column;
+          align-items: center;
         }
       }
     }
@@ -203,7 +282,6 @@ body {
     }
   }
   .contact-me {
-    margin-top: 50px;
     &__title {
       h1 {
         font-size: 28px;
@@ -215,6 +293,15 @@ body {
           margin-right: 0;
         }
       }
+    }
+  }
+}
+@media only screen and (max-width: 670px) {
+  .companies {
+    &__panel-set {
+      flex-direction: column;
+      align-items: center;
+      margin-top: 0;
     }
   }
 }

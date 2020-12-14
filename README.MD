@@ -7,5 +7,4 @@ https://www.mikjailsalazar.com
 
 ## 3rd party libraries:
 
-1. Bootstrap
-2. WOW.js
+ss 2. WOW.js
