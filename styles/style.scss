@@ -1,13 +1,12 @@
-@import 'variables';
-@import 'mixin';
+@import "variables";
 
 @font-face {
-  font-family: 'Norteworthy';
-  src: url('../assets/Fonts/Noteworthy-Lt.woff') format('woff');
+  font-family: "Norteworthy";
+  src: url("../assets/Fonts/Noteworthy-Lt.woff") format("woff");
 }
 
 body {
-  font-family: 'Norteworthy';
+  font-family: "Norteworthy";
   display: grid;
   row-gap: 168px;
 }
@@ -42,20 +41,13 @@ h6 {
 
 .landing {
   &__map-background {
-    background: url('../assets/UI/Icons/Map.svg') no-repeat center;
+    background: url("../assets/UI/Icons/Map.svg") no-repeat center;
     background-position-x: 40%;
   }
   &__first-image {
     display: flex;
     justify-content: center;
     padding-top: 147px;
-    &__img {
-      top: 2px;
-      position: relative;
-      &--mobile {
-        display: none;
-      }
-    }
   }
   &__hello-world {
     position: absolute;
@@ -67,28 +59,55 @@ h6 {
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: $primary;
+    background-color: var(--primary);
     padding: 132px 0;
-    &__ninja {
-      margin-bottom: 24px;
+  }
+}
+
+.main-image {
+  &--pc {
+    top: 2px;
+    position: relative;
+  }
+  &--mobile {
+    display: none;
+  }
+}
+
+.who-i-am {
+  &__ninja {
+    margin-bottom: 24px;
+  }
+  &__technologies {
+    display: flex;
+    justify-content: center;
+    width: 184px;
+    img:not(:first-child) {
+      margin-left: 8px;
     }
-    &__technologies {
-      display: flex;
-      justify-content: center;
-      width: 184px;
-      img:not(:first-child) {
-        margin-left: 8px;
-      }
-    }
-    &__description {
-      text-align: center;
-      width: 50%;
-      color: white;
-      margin-top: 32px;
-      line-height: 32px;
-      padding: 0 24px;
-      font-size: 1.25rem;
-    }
+  }
+  &__description {
+    text-align: center;
+    width: 50%;
+    color: white;
+    margin-top: 32px;
+    line-height: 32px;
+    padding: 0 24px;
+    font-size: 1.25rem;
+  }
+}
+
+.stack-icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0 6px 22px #ebeaec;
+  border-radius: 15px;
+  width: 50px;
+  height: 50px;
+  margin-right: 8px;
+  img {
+    width: 30px;
   }
 }
 
@@ -98,63 +117,55 @@ h6 {
     text-align: center;
   }
 
-  &__panel-set {
+  &__card-set {
     display: flex;
     justify-content: space-between;
-    &__panel {
-      $root: &;
-      @include fullCenterFlex;
-      width: 318px;
-      height: 162px;
-      box-shadow: 0 6px 22px #ebeaec;
-      border-radius: 4px;
-      margin-top: 56px;
-      &:hover {
-        img {
-          transition: 0.5s;
-          opacity: 0;
-          visibility: hidden;
-        }
-        #{$root}__visit-web {
-          opacity: 1;
-          transition: 1s;
-        }
-      }
-      &__visit-web {
-        opacity: 0;
-        position: absolute;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        width: 318px;
-        height: 162px;
-        a {
-          border: 2px solid $primary;
-          border-radius: 5px;
-          padding: 5px 15px;
-          color: $primary;
-          text-decoration: none;
-          &:hover {
-            background-color: $primary;
-            color: white;
-          }
-        }
-      }
-    }
   }
   &__technologies {
     display: flex;
     justify-content: center;
     margin-top: 24px;
-    &__icon {
-      @include fullCenterFlex;
-      box-shadow: 0 6px 22px #ebeaec;
-      border-radius: 15px;
-      width: 50px;
-      height: 50px;
-      margin-right: 8px;
-      img {
-        width: 30px;
+  }
+}
+
+.card {
+  $root: &;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 318px;
+  height: 162px;
+  box-shadow: 0 6px 22px #ebeaec;
+  border-radius: 4px;
+  margin-top: 56px;
+  &:hover {
+    img {
+      transition: 0.5s;
+      opacity: 0;
+      visibility: hidden;
+    }
+    #{$root}__visit-web {
+      opacity: 1;
+      transition: 1s;
+    }
+  }
+  &__visit-web {
+    opacity: 0;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 318px;
+    height: 162px;
+    a {
+      border: 2px solid var(--primary);
+      border-radius: 5px;
+      padding: 5px 15px;
+      color: var(--primary);
+      text-decoration: none;
+      &:hover {
+        background-color: var(--primary);
+        color: white;
       }
     }
   }
@@ -170,18 +181,6 @@ h6 {
   &__skill-set-2 {
     display: flex;
     justify-content: space-between;
-    &__item {
-      &__content {
-        width: 200px;
-        text-align: center;
-      }
-      &__description {
-        width: auto;
-        p {
-          margin-bottom: 0;
-        }
-      }
-    }
   }
   &__skill-set {
     margin-top: 56px;
@@ -191,10 +190,23 @@ h6 {
   }
 }
 
+.skill-item {
+  &__content {
+    width: 200px;
+    text-align: center;
+  }
+  &__description {
+    width: auto;
+    p {
+      margin-bottom: 0;
+    }
+  }
+}
+
 .contact-me {
   padding-top: 96px;
   padding-bottom: 96px;
-  background-color: $primary;
+  background-color: var(--primary);
   &__title {
     text-align: center;
     color: white;
@@ -203,8 +215,13 @@ h6 {
     display: flex;
     justify-content: center;
     &__item {
-      @include fullCenterFlex;
-      @include iconPanel;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      border-radius: 15px;
+      width: 50px;
+      height: 50px;
+      background-color: white;
       margin-right: 56px;
       &:last-child {
         margin-right: 0;
@@ -221,12 +238,6 @@ h6 {
   .landing {
     &__first-image {
       padding-top: 100px;
-      &__img {
-        display: none;
-        &--mobile {
-          display: block;
-        }
-      }
     }
     &__hello-world {
       top: 150px;
@@ -235,26 +246,39 @@ h6 {
       padding-top: 50px;
       padding-bottom: 50px;
       height: auto;
-      &__description {
-        width: 80%;
-        text-align: center;
-      }
     }
   }
+
+  .who-i-am {
+    &__description {
+      width: 80%;
+      text-align: center;
+    }
+  }
+
+  .main-image {
+    &--pc {
+      display: none;
+    }
+    &--mobile {
+      display: block;
+    }
+  }
+
   .companies {
     &__title {
       width: 80%;
       margin: 0 auto 56px auto;
       font-size: 28px;
     }
-    &__panel-set {
-      &__panel {
-        &--first {
-          margin-top: 0;
-        }
-      }
+  }
+
+  .card {
+    &--first {
+      margin-top: 0;
     }
   }
+
   .skills {
     padding-top: 0;
     &__title {
@@ -265,22 +289,24 @@ h6 {
       flex-direction: column;
       align-items: center;
       margin-top: 20px;
-      &__item {
-        margin-top: 50px;
-        &__description {
-          width: 180px;
-        }
-        &__content {
-          display: flex;
-          flex-direction: column;
-          align-items: center;
-        }
+      &__skill-set-2 {
+        margin-top: 0;
       }
     }
-    &__skill-set-2 {
-      margin-top: 0;
+  }
+
+  .skill-item {
+    margin-top: 50px;
+    &__description {
+      width: 180px;
+    }
+    &__content {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
     }
   }
+
   .contact-me {
     &__title {
       h1 {
@@ -298,7 +324,7 @@ h6 {
 }
 @media only screen and (max-width: 670px) {
   .companies {
-    &__panel-set {
+    &__card-set {
       flex-direction: column;
       align-items: center;
       margin-top: 0;

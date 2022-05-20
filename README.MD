@@ -1,10 +1,16 @@
 # Portfolio Website
+
 https://www.mikjailsalazar.com
+
 ## Languages:
 
-1. HTML
-2. SASS
+- HTML
+- SASS
 
 ## 3rd party libraries:
 
-ss 2. WOW.js
+- WOW.js
+
+## NPM scripts
+
+- `build:scss` Compile scss variables.
