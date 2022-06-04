@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="48px" height="52px" viewBox="0 0 48 52" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 57.1 (83088) - https://sketch.com -->
+    <title>UI / Technologies / React</title>
+    <desc>Created with Sketch.</desc>
+    <g id="UI-/-Technologies-/-React" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="download">
+            <g id="Group-2">
+                <circle id="Oval" fill="#0AA9D7" fill-rule="nonzero" cx="24" cy="26.1818182" r="4.47272727"></circle>
+                <g id="Group" stroke="#0AA9D7">
+                    <ellipse id="Oval" cx="24" cy="26.1818182" rx="24" ry="9.16363636"></ellipse>
+                    <ellipse id="Oval" transform="translate(24.000000, 26.181818) rotate(60.000000) translate(-24.000000, -26.181818) " cx="24" cy="26.1818182" rx="24" ry="9.16363636"></ellipse>
+                    <ellipse id="Oval" transform="translate(24.000000, 26.181818) rotate(120.000000) translate(-24.000000, -26.181818) " cx="24" cy="26.1818182" rx="24" ry="9.16363636"></ellipse>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
