@@ -13,4 +13,4 @@ https://www.mikjailsalazar.com
 
 ## NPM scripts
 
-- `build:scss` Compile scss variables.
+- `compile:scss` Compile scss variables.
