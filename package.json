@@ -4,7 +4,7 @@
   "description": "Mikjail Salazar Website",
   "main": "index.js",
   "devDependencies": {
-    "vite": "^5.0.10"
+    "vite": "^5.0.12"
   },
   "scripts": {
     "compile:scss": "sass --watch styles/style.scss styles/_variables.scss",
